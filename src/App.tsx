@@ -1,6 +1,7 @@
 export default function App() {
   return (
-    <>
-    </>
+    <div className="flex items-center justify-center">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium accusamus fugiat! Officiis corrupti facere dolor pariatur magnam veritatis, aspernatur minus et beatae harum, temporibus voluptates amet ab earum architecto!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium accusamus fugiat! Officiis corrupti facere dolor pariatur magnam veritatis, aspernatur minus et beatae harum, temporibus voluptates amet ab earum architecto!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium accusamus fugiat! Officiis corrupti facere dolor pariatur magnam veritatis, aspernatur minus et beatae harum, temporibus voluptates amet ab earum architecto!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium accusamus fugiat! Officiis corrupti facere dolor pariatur magnam veritatis, aspernatur minus et beatae harum, temporibus voluptates amet ab earum architecto!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium accusamus fugiat! Officiis corrupti facere dolor pariatur magnam veritatis, aspernatur minus et beatae harum, temporibus voluptates amet ab earum architecto!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium accusamus fugiat! Officiis corrupti facere dolor pariatur magnam veritatis, aspernatur minus et beatae harum, temporibus voluptates amet ab earum architecto!Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium accusamus fugiat! Officiis corrupti facere dolor pariatur magnam veritatis, aspernatur minus et beatae harum, temporibus voluptates amet ab earum architecto!
+    </div>
   )
 }
