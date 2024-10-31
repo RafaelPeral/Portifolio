@@ -1,5 +1,3 @@
-import { Image } from "lucide-react";
-
 interface SkillProps {
     nome: string;
     descricao: string;
