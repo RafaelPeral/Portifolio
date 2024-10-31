@@ -4,7 +4,7 @@ export default function WelcomeSection () {
     return (
         <section className="max-w-screen-xl mx-auto h-headerscreen flex items-center justify-center md:gap-32 lg:gap-64 py-24" id="welcome">
             <div className="h-full w-1/2 flex flex-col items-center justify-center gap-6">
-                <h1 className=' text-5xl font-bold tx-violet'>Rafael Peral</h1>
+                <h1 className=' text-5xl font-bold text-bright-purple'>Rafael Peral</h1>
                 <h2 className=' text-lg'>Your Full Stack Developer.</h2>
                 <h2 className=' text-lg text-gray-300'>Building the future, one line of code at a time.</h2>
                 <a 

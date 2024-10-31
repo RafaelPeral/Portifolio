@@ -3,7 +3,7 @@ import Front from './front';
 import Back from './back';
 
 export default function SkilsSection() {
-    const [name, setName] = useState('');
+    const [name, setName] = useState('Skills');
     const [description, setDescription] = useState('Welcome to the skill session. If you want to know a little more about a skill, just click on the desired skill!');
 
     return(
@@ -15,7 +15,7 @@ export default function SkilsSection() {
             <div className="w-1/2 flex flex-col gap-6">
                 <div>
                     <h1 className='flex items-start text-4xl font-bold'>{name}</h1>
-                    <div className="w-16 h-[2px] bg-violet"/>
+                    <div className="w-16 h-[2px] bg-bright-purple"/>
                 </div>
                 <p className='text-gray-300 text-left'>{description}</p>
             </div>

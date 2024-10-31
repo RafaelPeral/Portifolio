@@ -11,7 +11,7 @@ export default function Front( { setName, setDescription, name } : FrontProps ) 
         <div className="flex flex-col items-center mr-10">
             <div className="mb-4">
                 <h2 className='text-2xl font-bold'>Front-end</h2>
-                <div className="w-8 h-[2px] bg-violet"/>
+                <div className="w-8 h-[2px] bg-bright-purple"/>
             </div>
             <Skill
                 nome="React"

@@ -11,7 +11,7 @@ export default function AboutMeSection() {
                 <h1 className=' text-4xl font-bold'>
                     About Me
                 </h1>
-                <div className=" w-16 h-[2px] bg-violet"/>
+                <div className=" w-16 h-[2px] bg-bright-purple"/>
                 </div>
                 <p className='text-gray-300 text-left'>
                     I work as a Full Stack developer, with expertise in Python and Flesk for back-end development and React with TypeScript for front-end development.
