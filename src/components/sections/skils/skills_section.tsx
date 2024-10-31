@@ -8,16 +8,16 @@ export default function SkilsSection() {
 
     return(
         <section className="max-w-screen-xl mx-auto h-headerscreen flex flex-col-reverse lg:flex-row items-center justify-center gap-16 md:gap-32 lg:gap-64 py-24" id="skills">
-            <div className="w-1/2 flex justify-center">
-                <Front setName={setName} setDescription={setDescription} name={name}/>
-                <Back setName={setName} setDescription={setDescription} name={name}/>
-            </div>
             <div className="w-1/2 flex flex-col gap-6">
                 <div>
                     <h1 className='flex items-start text-4xl font-bold'>{name}</h1>
                     <div className="w-16 h-[2px] bg-bright-purple"/>
                 </div>
                 <p className='text-gray-300 text-left'>{description}</p>
+            </div>
+            <div className="w-1/2 flex justify-center">
+                <Front setName={setName} setDescription={setDescription} name={name}/>
+                <Back setName={setName} setDescription={setDescription} name={name}/>
             </div>
         </section>
     )

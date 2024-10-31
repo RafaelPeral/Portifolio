@@ -10,9 +10,7 @@ export default function Header() {
     let Links = [
         {name:"WELCOME", link:"#welcome"},
         {name:"ABOUT-ME", link:"#aboutme"},
-        {name:"SERVICES", link:"#services"},
-        {name:"HARD-SKILLS", link:"#hardskills"},
-        {name:"SOFT-SKILLS", link:"#softskills"},
+        {name:"SKILLS", link:"#skills"},
         {name:"PROJECTS", link:"#projects"},
     ];
 
@@ -48,7 +46,6 @@ export default function Header() {
                                             </a>
                                         ))}
                                     </div>
-                                    
                                 </CardBorder>
                             </PopoverContent>
                         </Popover>
