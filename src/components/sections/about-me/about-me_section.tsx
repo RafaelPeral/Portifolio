@@ -1,6 +1,6 @@
 import { instagram_url, avatar_url } from '@/utils/url'
 
-export default function AboutMe() {
+export default function AboutMeSection() {
     return (
         <section className="max-w-screen-xl mx-auto h-headerscreen flex flex-col lg:flex-row items-center justify-center gap-16 md:gap-32 lg:gap-64 py-24" id="aboutme">
             <div className="w-1/2 flex items-center">
