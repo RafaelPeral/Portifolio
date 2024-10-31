@@ -1,6 +1,6 @@
 import { github_url, gif_computer_url } from '@/utils/url'
 
-export default function Welcome() {
+export default function WelcomeSection () {
     return (
         <section className="max-w-screen-xl mx-auto h-headerscreen flex items-center justify-center md:gap-32 lg:gap-64 py-24" id="welcome">
             <div className="h-full w-1/2 flex flex-col items-center justify-center gap-6">
