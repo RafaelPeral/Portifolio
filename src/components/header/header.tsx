@@ -16,7 +16,7 @@ export default function Header() {
 
     return (
         <>
-            <nav className="shadow-violet-950 shadow-md w-full flex justify-between items-center px-6 py-2 fixed opacity-100 bg-primary-foreground">
+            <nav className="shadow-violet-950 shadow-md w-full flex justify-between items-center px-6 py-2 fixed z-50 opacity-100 bg-primary-foreground">
                 <a href={github_url} target="_blank" className="flex items-center text-center gap-2">
                     <AvatarComponent/>
                     <h1 className='text-lg text-purple-600 h-[40px] flex items-center'>
@@ -38,7 +38,7 @@ export default function Header() {
                                 <Menu size={27}/>
                             </PopoverTrigger>
                             <PopoverContent className="mx-2">
-                                <CardBorder w={200} h={400}>
+                                <CardBorder bg="bg-primary-foreground" w='w-[200px]' h='h-[400px]' wb='w-[500px]' hb='h-[500px]'>
                                     <div className="flex flex-col gap-2">
                                         {Links.map((link) => (
                                             <a href={link.link} className="block text-center p-2 m-2 shadow-sm shadow-purple-500" key={link.name}>
