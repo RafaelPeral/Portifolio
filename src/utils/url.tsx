@@ -6,6 +6,8 @@ export const instagram_url = `https://www.instagram.com/rafaelvenet/`
 
 export const telegram_url = `https://t.me/RafaelPeral`
 
+export const email = 'rafaelvenet@gmail.com'
+
 export const becons_url = `https://beacons.ai/rafael_peral`
 
 export const avatar_url = `https://github.com/RafaelPeral.png`
