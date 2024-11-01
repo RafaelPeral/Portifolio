@@ -13,7 +13,7 @@ export default function SkilsSection() {
                     <h1 className='flex items-start text-4xl font-bold'>{name}</h1>
                     <div className="w-16 h-[2px] bg-bright-purple"/>
                 </div>
-                <p className='text-gray-300 text-left'>{description}</p>
+                <p className='text-muted-foreground text-left'>{description}</p>
             </div>
             <div className="w-1/2 flex justify-center">
                 <Front setName={setName} setDescription={setDescription} name={name}/>

@@ -1,4 +1,5 @@
 import { Skill } from "./skill/skill"
+import { react_image_url, typescript_image_url, javascript_image_url, tailwind_image_url } from "@/utils/url"
 
 interface FrontProps {
     setName: Function
@@ -10,22 +11,22 @@ export default function Front( { setName, setDescription, name } : FrontProps ) 
     const react = {
         name: "React",
         descricao: "React is an open source JavaScript library focused on creating user interfaces on web pages. This framework also allows the creation of reusable components for our application and the composition of elements that can be changed, without the need to reload the page.",
-        caminho : ""
+        caminho : react_image_url
     }
     const typescript = {
         name: "TypeScript",
         descricao: "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.",
-        caminho : ""
+        caminho : typescript_image_url
     }
     const javascript = {
         name: "JavaScript",
         descricao: "JavaScript is a lightweight, interpreted, high-level, dynamic, and interpreted programming language.",
-        caminho : ""
+        caminho : javascript_image_url
     }
     const tailwind = {
         name: "Tailwind CSS",
         descricao: "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.",
-        caminho : ""
+        caminho : tailwind_image_url
     }
 
     const tecnologias = [react, typescript, javascript, tailwind];

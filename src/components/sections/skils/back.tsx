@@ -1,5 +1,7 @@
 import { Skill } from "./skill/skill";
 
+import { python_image_url, flask_image_url, sqlalchemy_image_url, postgresql_image_url } from "@/utils/url";
+
 interface BackProps {
     setName: Function
     setDescription: Function
@@ -10,15 +12,25 @@ export default function Back( { setName, setDescription, name } : BackProps ) {
     const python = {
         name: "Python",
         descricao: "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Being used for server-side web development, software development and system scripts.",
-        caminho : "/skills/hard/python.png"
+        caminho : python_image_url
     }
-    const django = {
-        name: "Django",
-        descricao: "Django is a web framework for Python that encourages rapid development and clean, pragmatic design. He is responsible for much of the web development work.",
-        caminho : "/skills/hard/django.png"
+    const flask = {
+        name: "Flask",
+        descricao: "A lightweight Python web framework focused on simplicity and flexibility, ideal for building APIs and small to medium-sized applications.",
+        caminho : flask_image_url
     }
-
-    const tecnologias = [python, django]
+    const sqlalchemy = {
+        name: "SQLAlchemy",
+        descricao: "An ORM library for Python that simplifies the use of relational databases by mapping tables to Python classes, allowing data manipulation as objects.",
+        caminho : sqlalchemy_image_url
+    }
+    const postgresql = {
+        name: "PostgreSQL",
+        descricao: "An open-source, robust, and scalable relational database management system known for ACID-compliant transactions and support for complex data structures.",
+        caminho : postgresql_image_url
+    }
+    
+    const tecnologias = [python, flask, sqlalchemy, postgresql];
 
     return (
         <div className="flex flex-col items-center mr-10">
