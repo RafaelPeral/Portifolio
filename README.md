@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Rafael Peral Portifolio
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RafaelPeral/Portifolio/blob/main/LICENSE) 
 
-Currently, two official plugins are available:
+# Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Portfolio on deploy](https://portifolio-pearl-xi-97.vercel.app)
 
-## Expanding the ESLint configuration
+This is the repository of my personal portfolio, where I demonstrate my skills and projects carried out as a full-stack developer.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Layout mobile
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Layout web
+
+
+# Tecnologias utilizadas
+- HTML / CSS / JS / TypeScript
+- React
+- Tailwind CSS
+- Shadcn
+
+## Implantação em produção
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/RafaelPeral/Portifolio
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+# Autor
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Rafael Peral Venet Ferreira
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+[![email](https://github.com/RafaelPeral/Portifolio/blob/main/img/logos/email.svg) Email: rafaelvenet@gmail.com](mailto:rafaelvenet@gmail.com)
+
+[![github](https://github.com/RafaelPeral/Portifolio/blob/main/img/logos/github.svg) GitHub: Rafael Peral](https://github.com/RafaelPeral)
+
+[![linkedin](https://github.com/RafaelPeral/Portifolio/blob/main/img/logos/linkedin.svg) Linkedin: Rafael Peral](https://www.linkedin.com/in/rafael-peral-83438a278/)
+
+[![instagram](https://github.com/RafaelPeral/Portifolio/blob/main/img/logos/instagram.svg) Instagram: Rafael Venet](https://www.instagram.com/rafaelvenet/)
+
+[![telegram](https://github.com/RafaelPeral/Portifolio/blob/main/img/logos/telegram.svg) Telegram: Rafael Peral](https://t.me/RafaelPeral)
