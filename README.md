@@ -1,6 +1,7 @@
 
 # Rafael Peral Portifolio
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RafaelPeral/Portifolio/blob/main/LICENSE) 
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RafaelPeral/Portifolio/blob/main/LICENSE)
 
 # Sobre o projeto
 
@@ -9,6 +10,7 @@
 This is the repository of my personal portfolio, where I demonstrate my skills and projects carried out as a full-stack developer.
 
 ## Layout mobile
+
 ![mobile_layout_dark](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/dark.png)
 ![mobile_layout_dark_nav](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/darknav.png)
 ![mobile_layout_dark_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/darkrede.png)
@@ -17,19 +19,26 @@ This is the repository of my personal portfolio, where I demonstrate my skills a
 ![mobile_layout_light_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/lightrede.png)
 
 ## Layout desk
+
 ![desk_layout_dark](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/dark.png)
 ![desk_layout_dark_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/darkrede.png)
 ![desk_layout_light](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/light.png)
 ![desk_layout_light_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/lightrede.png)
 
 # Tecnologias utilizadas
+
 - HTML / CSS / JS / TypeScript
 - React
 - Tailwind CSS
 - Shadcn
 
-## Implantação em produção
-Pré-requisitos: npm / yarn
+## Production deployment
+
+- Web: Vercel
+
+# How to execute the project
+
+Requirements: npm / yarn
 
 ```bash
 # clonar repositório
@@ -42,7 +51,7 @@ npm install
 npm run dev
 ```
 
-# Autor
+# Created by
 
 Rafael Peral Venet Ferreira
 
@@ -75,6 +84,3 @@ Rafael Peral Venet Ferreira
         <img src="https://github.com/RafaelPeral/Portifolio/blob/main/img/logos/telegram.svg" alt="Telegram" width="20" style="vertical-align: middle;" /> Telegram: Rafael Peral
     </div>
 </a>
-
-
-
