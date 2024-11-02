@@ -9,10 +9,18 @@
 This is the repository of my personal portfolio, where I demonstrate my skills and projects carried out as a full-stack developer.
 
 ## Layout mobile
+![mobile_layout_dark](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/dark.png)
+![mobile_layout_dark_nav](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/darknav.png)
+![mobile_layout_dark_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/darkrede.png)
+![mobile_layout_light](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/light.png)
+![mobile_layout_light_nav](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/lightnav.png)
+![mobile_layout_light_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/mobile/lightrede.png)
 
-
-## Layout web
-
+## Layout desk
+![desk_layout_dark](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/dark.png)
+![desk_layout_dark_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/darkrede.png)
+![desk_layout_light](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/light.png)
+![desk_layout_light_redes](https://github.com/RafaelPeral/Portifolio/blob/main/img/desk/lightrede.png)
 
 # Tecnologias utilizadas
 - HTML / CSS / JS / TypeScript
