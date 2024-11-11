@@ -1,8 +1,7 @@
-import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext, CarouselApi } from "@/components/ui/carousel"
-import { CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Carousel, CarouselContent, CarouselPrevious, CarouselNext, CarouselApi } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
 import * as React from "react"
-import CardBorder from "@/components/card_border/card_border"
+import DespesasPessoais from "./despesas_pessoais"
 
 export default function ProjectsSection() {
     const [api, setApi] = React.useState<CarouselApi>()
@@ -39,35 +38,7 @@ export default function ProjectsSection() {
                     className="z-0"
                 >
                     <CarouselContent>
-                        <CarouselItem>
-                            <CardBorder bg="bg-card" w='w-[350px] md:w-[750px] lg:w-[900px]' h='h-[350px]' wb='w-[500px] md:w-[850px] lg:w-[1200px]' hb='h-[500px] md:h-[850px] lg:h-[1200px]'>
-                                <div className="w-full h-full flex flex-col items-center justify-between">
-                                    <CardHeader>
-                                        <CardTitle className="text-2xl md:text-4xl text-center">Despesas Pessoais</CardTitle>
-                                        <CardDescription className="text-center">Application for controlling personal expenses.</CardDescription>
-                                    </CardHeader>
-                                    <CardContent>
-
-                                    </CardContent>
-                                    <CardFooter className="flex flex-col justify-center gap-2">
-                                        <a 
-                                            className=' flex justify-center text-white hover:text-gray-400 duration-500 p-3 font-bold bg-gradient-to-r from-[#35014a] to-bright-purple rounded w-44'
-                                            href={''}
-                                            target="_blank"
-                                        >
-                                            Visit Application
-                                        </a>
-                                        <a 
-                                            className=' flex justify-center hover:text-white text-gray-400 duration-500 p-3 font-bold'
-                                            href={'https://github.com/RafaelPeral/Portifolio'}
-                                            target="_blank"
-                                        >
-                                            Visit GitHub
-                                        </a>
-                                    </CardFooter>
-                                </div>
-                            </CardBorder>
-                        </CarouselItem>
+                        <DespesasPessoais/>
                     </CarouselContent>
                     <CarouselPrevious className="hidden lg:block" />
                     <CarouselNext className="hidden lg:block" />
