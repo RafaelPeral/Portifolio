@@ -18,7 +18,7 @@ export default function DespesasPessoais() {
                         <CardDescription className="text-center">Application for controlling personal expenses.</CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <img src={theme === 'dark' ? "../img/despesas_pessoais/dark.png" : "../img/despesas_pessoais/light.png"} alt="Despesas Pessoais" className="w-full h-full object-cover"/>
+                        <img src={theme === 'dark' ? "https://github.com/RafaelPeral/Portifolio/blob/main/img/despesas_pessoais/dark.png?raw=true" : "https://github.com/RafaelPeral/Portifolio/blob/main/img/despesas_pessoais/light.png?raw=true"} alt="Despesas Pessoais" className="w-full h-full object-cover"/>
                     </CardContent>
                     <CardFooter className="flex flex-col justify-center gap-2">
                         <a 
